@@ -1,0 +1,6 @@
+[LITP]
+name = LITP
+baseurl = file:///var/www/html/litp
+enabled = 1
+gpgcheck = 0
+

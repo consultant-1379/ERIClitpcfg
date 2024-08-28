@@ -1,0 +1,7 @@
+*.pyc
+*.swp
+target
+.coverage
+coverage.xml
+nosetests.xml
+.coverage

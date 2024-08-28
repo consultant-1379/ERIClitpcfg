@@ -1,0 +1,5 @@
+[OS]
+name = OS
+baseurl = file:///var/www/html/7.9/os/x86_64/Packages/
+enabled = 1
+gpgcheck = 0

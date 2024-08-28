@@ -1,0 +1,3 @@
+/usr/lib/systemd/system/*:any:/usr/bin/systemctl daemon-reload
+/usr/local/lib/systemd/system/*:any:/usr/bin/systemctl daemon-reload
+/opt/ericsson/nms/litp/*:any:/bin/sh /etc/yum/post-actions/litp_action_wrapper.sh

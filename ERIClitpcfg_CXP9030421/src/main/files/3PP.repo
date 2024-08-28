@@ -1,0 +1,5 @@
+[3PP]
+name=Third-Party Packages for LITP
+baseurl=file:///var/www/html/3pp_rhel7
+enabled=1
+gpgcheck=0

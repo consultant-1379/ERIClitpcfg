@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ericsson.litp</groupId>
+        <artifactId>integration</artifactId>
+        <version>2.47.1</version>
+    </parent>
+    <groupId>com.ericsson.nms.litp</groupId>
+    <artifactId>ERIClitpcfg</artifactId>
+
+    <version>2.5.1-SNAPSHOT</version>
+    <!--adding to bump version -->
+    <packaging>pom</packaging>
+<!-- Adding comment to bump version number -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>ERIClitpcfg_CXP9030421</module>
+    </modules>
+    <scm>
+        <developerConnection>scm:git:ssh://gerrit.ericsson.se:29418/LITP/ERIClitpcfg</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+</project>
